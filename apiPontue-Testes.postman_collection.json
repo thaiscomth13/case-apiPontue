@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "f0abaff5-3252-4907-9200-409e5313dcab",
+		"name": "apiPontue-Testes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Adicionando",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nome",
+							"value": "The Office",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Atypical",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Bates Motel",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "How I Met Your Mother",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Normal People",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Stranger Things",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Modern Love",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Loki",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Sex Education",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Rupauls Drag Race",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "The Last Kingdom",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "La Casa de Papel",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "You",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "The Good Doctor",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "The Big Bang Theory",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "Greys Anatomy",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "The Crown",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/apiPontue/public/api/lista/adicionar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiPontue",
+						"public",
+						"api",
+						"lista",
+						"adicionar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listando",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiPontue/public/api/listando",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiPontue",
+						"public",
+						"api",
+						"listando"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizando",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiPontue/public/api/listando/17?nome=How I Met Your Mother 3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiPontue",
+						"public",
+						"api",
+						"listando",
+						"17"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "La Casa de Papel 2",
+							"disabled": true
+						},
+						{
+							"key": "nome",
+							"value": "How I Met Your Mother 3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletando",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiPontue/public/api/listando/22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiPontue",
+						"public",
+						"api",
+						"listando",
+						"22"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
