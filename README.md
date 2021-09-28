@@ -5,16 +5,15 @@ API simples em Laravel  que permite criar, ler, atualizar e deletar em uma lista
 ## Ferramentas utilizadas:
 
 - XAMPP;
-- PHPMyAdmin;
-- Postman.
+- PHPMyAdmin (arquivo db_lista.sql);
+- Postman (arquivo com testes apiPontue-Testes.postman_collection.json).
 
 ## Iniciando o projeto:
 
 - git clone https://github.com/thaiscomth13/case-apiPontue.git ;
-- cd case-apiPontue;
-- composer install;
-- php artisan migrate;
-- php artisan serve.
+- colocar a pasta clonada dentro do htdocs;
+- iniciar apache e mysql;
+- acessar API através de http://localhost/apiPontue/public/
 
 ## Testando a API:
 
