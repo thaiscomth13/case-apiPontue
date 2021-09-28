@@ -17,7 +17,8 @@ use App\Http\Controllers\Api\ListaController;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
-});
+}); 
+
 
 Route::get('/status', [ListaController::class, 'status']);
 Route::post('/lista/adicionar', [ListaController::class, 'adicionar']);
